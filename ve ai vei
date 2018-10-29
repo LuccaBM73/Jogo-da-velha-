@@ -68,7 +68,7 @@ int menu()
 	
 
 }
-/*void jogo()
+void jogo()
 {
 	
 	 int a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,x,y,z; //variaveis extras pra não precisar ta declarando no meio do code
@@ -82,19 +82,16 @@ for(z=0;z<10;z++);    //interface com tabela do lado (falta implementar o code d
 {
 	printf("Digite a posicao sendo \t 1  |2  |3\n                       1|1/1|1/2|1/3| \n                       2|1/2|2/2|2/3| \n                       3|1/3|2/3|3/3|\n");
 	printf("%c\n",Velha[1][2]);
-}   *******essa função era pra ser a local() {****** 
-}*/
+}
+}
 char local()
 {
 	int a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,x,y,z;
-  
-	char Velha [3][3]={{'a','b','c'},{'d','f','g'},{'h','i','j'}}	; 
-  
+	char Velha [3][3]={{'-','-','-'},{'-','-','-'},{'-','-','-'}}	; 
 		printf("Digite a posicao sendo \t 1  |2  |3\n                       1|1/1|1/2|1/3| \n                       2|1/2|2/2|2/3| \n                       3|1/3|2/3|3/3|\n");
-	
-  for(m=0;m<10;m++)
+		for(m=0;m<10;m++)
 		{
-		printf("Digite o setor que você deseja marcar\n");
+		printf("Digite o setor que você deseja marcar (X/Y)\n");
 		
 			scanf("%d",&u);
 			scanf("%d",&v);
@@ -110,10 +107,10 @@ char local()
 		printf("* %c ** %c ** %c*\n",Velha[2][0],Velha[2][1],Velha[2][2]);
 		printf("*****************\n");
 			   
-		// não consigo fazer com que ele continue imprimindo os X ou O já digitados :(
+		
 		
 		
 		
 	
 		}
-}
+}//https://github.com/LuccaBM73/Jogo-da-velha-/blob/master/ve%20ai%20vei
