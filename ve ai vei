@@ -82,7 +82,7 @@ char local()
 			--v;
 			--u;
 		printf("Digite se é X ou O\n");
-		scanf ("%s",&Velha[u][v])	;
+		scanf (" %c",&Velha[u][v]);	;
 		printf("*****************\n");
 		printf("* %c ** %c ** %c*\n",Velha[0][0],Velha[0][1],Velha[0][2]);
 		printf("*****************\n");
